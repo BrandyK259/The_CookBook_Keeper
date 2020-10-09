@@ -13,9 +13,10 @@
         android:layout_height="wrap_content"
         android:background="@drawable/rf_instruct_text_fld"
         android:ems="10"
-        android:hint="Step One"
+        android:hint="@string/step_one"
         android:inputType="textPersonName"
         android:paddingLeft="15dp"
+        android:paddingRight="15dp"
         android:textColor="#000"
         android:textColorHint="#000"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -23,7 +24,8 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.713" />
+        app:layout_constraintVertical_bias="0.713"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
@@ -31,9 +33,10 @@
         android:layout_height="wrap_content"
         android:background="@drawable/rf_ingr_text_fld"
         android:ems="10"
-        android:hint="Ingredient Name"
+        android:hint="@string/ingredient_name"
         android:inputType="textPersonName"
         android:paddingLeft="15dp"
+        android:paddingRight="15dp"
         android:textColor="#000"
         android:textColorHint="#000"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -41,7 +44,8 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.545" />
+        app:layout_constraintVertical_bias="0.545"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
@@ -49,9 +53,10 @@
         android:layout_height="wrap_content"
         android:background="@drawable/rf_tag_text_fld"
         android:ems="10"
-        android:hint="Recipe Tag"
+        android:hint="@string/recipe_tag"
         android:inputType="textPersonName"
         android:paddingLeft="15dp"
+        android:paddingRight="15dp"
         android:textColor="#000"
         android:textColorHint="#000"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -59,13 +64,14 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.427" />
+        app:layout_constraintVertical_bias="0.427"
+        android:autofillHints="" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="Recipe Form"
+        android:contentDescription="@string/recipe_form"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -78,7 +84,7 @@
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="Ingredients needed for your dish"
+        android:contentDescription="@string/ingredients_needed_for_your_dish"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
@@ -90,7 +96,7 @@
         android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="Instructions to make your dish:"
+        android:contentDescription="@string/instructions_to_make_your_dish"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
@@ -103,7 +109,7 @@
         android:id="@+id/imageView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="Enter the name of your dish:"
+        android:contentDescription="@string/enter_the_name_of_your_dish"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -116,7 +122,7 @@
         android:id="@+id/imageView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="Enter ONE of the following tags for your dish: (Breakfast, Lunch, Dinner, Dessert, Snack)"
+        android:contentDescription="@string/enter_one_of_the_following_tags_for_your_dish_breakfast_lunch_dinner_dessert_snack"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -131,9 +137,10 @@
         android:layout_height="wrap_content"
         android:background="@drawable/rf_name_text_fld"
         android:ems="10"
-        android:hint="Recipe Name"
+        android:hint="@string/recipe_name"
         android:inputType="textPersonName"
         android:paddingLeft="15dp"
+        android:paddingRight="15dp"
         android:textColor="#000"
         android:textColorHint="#000"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -141,7 +148,8 @@
         app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.245" />
+        app:layout_constraintVertical_bias="0.245"
+        android:importantForAutofill="no" />
 
     <Button
         android:id="@+id/button3"
@@ -184,6 +192,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/rf_quit_btn"
+        android:onClick="gotoMainMenu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.686"

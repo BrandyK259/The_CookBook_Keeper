@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">The_CookBook_Keeper</string>
+    <string name="step_one">Step One</string>
+    <string name="ingredient_name">Ingredient Name</string>
+    <string name="recipe_tag">Recipe Tag</string>
+    <string name="recipe_form">Recipe Form</string>
+    <string name="ingredients_needed_for_your_dish">Ingredients needed for your dish</string>
+    <string name="instructions_to_make_your_dish">Instructions to make your dish:</string>
+    <string name="enter_the_name_of_your_dish">Enter the name of your dish:</string>
+    <string name="enter_one_of_the_following_tags_for_your_dish_breakfast_lunch_dinner_dessert_snack">Enter ONE of the following tags for your dish: (Breakfast, Lunch, Dinner, Dessert, Snack)</string>
+    <string name="recipe_name">Recipe Name</string>
+    <string name="uh_oh_it_seems_as_though_you_don_t_have_any_recipes_stored_would_you_like_to_store_one_now">Uh-Oh It seems as though you don\'t have any recipes stored. Would you like to store one now?</string>
+    <string name="the_cook_book_keeper">The Cook-Book Keeper</string>
 </resources>
