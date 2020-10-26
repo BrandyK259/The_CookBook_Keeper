@@ -11,4 +11,6 @@
     <string name="recipe_name">Recipe Name</string>
     <string name="uh_oh_it_seems_as_though_you_don_t_have_any_recipes_stored_would_you_like_to_store_one_now">Uh-Oh It seems as though you don\'t have any recipes stored. Would you like to store one now?</string>
     <string name="the_cook_book_keeper">The Cook-Book Keeper</string>
+    <string name="ingredient_desc">Ingredient Desc.</string>
+    <string name="step_description">Step Description</string>
 </resources>

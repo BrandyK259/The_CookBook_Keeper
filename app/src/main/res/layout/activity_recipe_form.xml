@@ -7,57 +7,6 @@
     android:background="@drawable/rf_bckgrd"
     tools:context=".recipe_form">
 
-    <Button
-        android:id="@+id/button10"
-        android:layout_width="33dp"
-        android:layout_height="26dp"
-        android:background="@drawable/rf_close_btn"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.746"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.713" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName4"
-        android:layout_width="171dp"
-        android:layout_height="26dp"
-        android:background="@drawable/rf_ingr_text_fld"
-        android:ems="10"
-        android:hint="@string/step_description"
-        android:importantForAutofill="no"
-        android:inputType="textPersonName"
-        android:paddingLeft="15dp"
-        android:paddingRight="15dp"
-        android:textColor="#000"
-        android:textColorHint="#000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.413"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.713" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName3"
-        android:layout_width="171dp"
-        android:layout_height="26dp"
-        android:autofillHints=""
-        android:background="@drawable/rf_ingr_text_fld"
-        android:ems="10"
-        android:hint="@string/ingredient_desc"
-        android:inputType="textPersonName"
-        android:paddingLeft="15dp"
-        android:paddingRight="15dp"
-        android:textColor="#000"
-        android:textColorHint="#000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.413"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.545" />
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
@@ -109,12 +58,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:contentDescription="@string/instructions_to_make_your_dish"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/layout_step"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.668"
+        app:layout_constraintTop_toBottomOf="@+id/layout_ingredient"
+        app:layout_constraintVertical_bias="0.88"
         app:srcCompat="@drawable/rf_intruct_text" />
 
     <ImageView
@@ -164,28 +113,30 @@
         app:layout_constraintVertical_bias="0.245" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/add_ingredient_btn"
         android:layout_width="124dp"
         android:layout_height="32dp"
         android:background="@drawable/rf_add_ingr_btn"
-        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.338"
+        app:layout_constraintHorizontal_bias="0.324"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.597" />
+        app:layout_constraintTop_toBottomOf="@+id/layout_ingredient"
+        app:layout_constraintVertical_bias="0.309" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/add_step_btn"
         android:layout_width="124dp"
         android:layout_height="32dp"
         android:background="@drawable/rf_add_step_btn"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.338"
+        app:layout_constraintHorizontal_bias="0.324"
+
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.768" />
+        app:layout_constraintTop_toBottomOf="@+id/layout_step"
+        app:layout_constraintVertical_bias="0.171" />
 
     <Button
         android:id="@+id/button5"
@@ -196,8 +147,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.287"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.884" />
+        app:layout_constraintTop_toBottomOf="@+id/layout_step"
+        app:layout_constraintVertical_bias="0.563" />
 
     <Button
         android:id="@+id/button6"
@@ -209,18 +160,27 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.686"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.884" />
+        app:layout_constraintTop_toBottomOf="@+id/add_step_btn"
+        app:layout_constraintVertical_bias="0.423" />
 
-    <Button
-        android:id="@+id/button9"
-        android:layout_width="33dp"
-        android:layout_height="26dp"
-        android:background="@drawable/rf_close_btn"
+    <LinearLayout
+        android:id="@+id/layout_ingredient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.746"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.545" />
+        app:layout_constraintVertical_bias="0.526"
+        tools:layout_editor_absoluteX="16dp"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_step"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.686"
+        tools:layout_editor_absoluteX="0dp"></LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+
+    <EditText
+        android:id="@+id/ingredient_field"
+        android:layout_width="159dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="65dp"
+        android:autofillHints=""
+        android:background="@drawable/rf_ingr_text_fld"
+        android:ems="10"
+        android:hint="@string/ingredient_desc"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="#000"
+        android:textColorHint="#000" />
+
+    <Button
+        android:id="@+id/ingr_cancel_button"
+        android:layout_width="33dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="13dp"
+        android:background="@drawable/rf_close_btn" />
+</LinearLayout>
