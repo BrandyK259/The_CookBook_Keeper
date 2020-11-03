@@ -11,7 +11,7 @@
         android:id="@+id/ingredient_field"
         android:layout_width="159dp"
         android:layout_height="26dp"
-        android:layout_marginLeft="65dp"
+        android:layout_marginStart="65dp"
         android:autofillHints=""
         android:background="@drawable/rf_ingr_text_fld"
         android:ems="10"
@@ -25,7 +25,7 @@
     <Button
         android:id="@+id/ingr_cancel_button"
         android:layout_width="33dp"
-        android:layout_height="26dp"
-        android:layout_marginLeft="13dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="13dp"
         android:background="@drawable/rf_close_btn" />
 </LinearLayout>
