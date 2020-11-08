@@ -56,6 +56,9 @@ public class recipe_form extends AppCompatActivity  {
             }
 
         });
+        ingrAdd.performClick();
+        ingrAdd.performClick();
+        ingrAdd.performClick();
 
         layoutStep = findViewById(R.id.layout_step);
         stepAdd = findViewById(R.id.add_step_btn);
@@ -91,7 +94,9 @@ public class recipe_form extends AppCompatActivity  {
             }
 
         });
-
+        stepAdd.performClick();
+        stepAdd.performClick();
+        stepAdd.performClick();
 
     }
 

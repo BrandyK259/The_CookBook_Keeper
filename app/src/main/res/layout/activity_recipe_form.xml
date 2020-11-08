@@ -26,20 +26,19 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.388" />
+        app:layout_constraintVertical_bias="0.351" />
 
     <ImageView
         android:id="@+id/title_text"
         android:layout_width="245dp"
-        android:layout_height="61dp"
+        android:layout_height="60dp"
         android:contentDescription="@string/recipe_form"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.09"
-        app:srcCompat="@drawable/rf_title" />
+        app:layout_constraintVertical_bias="0.008"
+        app:srcCompat="@drawable/rf_new_title" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -51,7 +50,7 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.449"
+        app:layout_constraintVertical_bias="0.423"
         app:srcCompat="@drawable/rf_ingr_text" />
 
     <Button
@@ -65,109 +64,7 @@
         app:layout_constraintHorizontal_bias="0.331"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.846" />
-
-    <Button
-        android:id="@+id/ingr_cancel_button"
-        android:layout_width="33dp"
-        android:layout_height="24dp"
-        android:background="@drawable/rf_close_btn"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.711"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.497"
-        tools:ignore="MissingConstraints" />
-
-    <Button
-        android:id="@+id/step_cancel_button2"
-        android:layout_width="33dp"
-        android:layout_height="24dp"
-        android:background="@drawable/rf_close_btn"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.711"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.786"
-        tools:ignore="MissingConstraints" />
-
-    <EditText
-        android:id="@+id/step_field"
-        android:layout_width="159dp"
-        android:layout_height="26dp"
-        android:background="@drawable/rf_ingr_text_fld"
-        android:ems="10"
-        android:hint="@string/step_description"
-        android:importantForAutofill="no"
-        android:inputType="textPersonName"
-        android:paddingLeft="15dp"
-        android:paddingRight="15dp"
-        android:textColor="#000"
-        android:textColorHint="#000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.376"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.734"
-        tools:ignore="MissingConstraints" />
-
-    <Button
-        android:id="@+id/ingr_cancel_button2"
-        android:layout_width="33dp"
-        android:layout_height="24dp"
-        android:background="@drawable/rf_close_btn"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.711"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.55"
-        tools:ignore="MissingConstraints" />
-
-    <EditText
-        android:id="@+id/ingredient_field2"
-        android:layout_width="159dp"
-        android:layout_height="26dp"
-        android:autofillHints=""
-        android:background="@drawable/rf_ingr_text_fld"
-        android:ems="10"
-        android:hint="@string/ingredient_desc"
-        android:inputType="textPersonName"
-        android:paddingLeft="15dp"
-        android:paddingRight="15dp"
-        android:textColor="#000"
-        android:textColorHint="#000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.376"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.548"
-        tools:ignore="MissingConstraints" />
-
-    <EditText
-        android:id="@+id/ingredient_field"
-        android:layout_width="159dp"
-        android:layout_height="26dp"
-        android:autofillHints=""
-        android:background="@drawable/rf_ingr_text_fld"
-        android:ems="10"
-        android:hint="@string/ingredient_desc"
-        android:inputType="textPersonName"
-        android:paddingLeft="15dp"
-        android:paddingRight="15dp"
-        android:textColor="#000"
-        android:textColorHint="#000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.376"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.496"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintVertical_bias="0.898" />
 
     <ImageView
         android:id="@+id/instruction_text"
@@ -176,10 +73,10 @@
         android:contentDescription="@string/instructions_to_make_your_dish"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.679"
+        app:layout_constraintVertical_bias="0.686"
         app:srcCompat="@drawable/rf_intruct_text"
         tools:ignore="MissingConstraints" />
 
@@ -194,41 +91,7 @@
         app:layout_constraintHorizontal_bias="0.331"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.606" />
-
-    <Button
-        android:id="@+id/step_cancel_button"
-        android:layout_width="33dp"
-        android:layout_height="24dp"
-        android:background="@drawable/rf_close_btn"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.711"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.735"
-        tools:ignore="MissingConstraints" />
-
-    <EditText
-        android:id="@+id/step_field2"
-        android:layout_width="159dp"
-        android:layout_height="26dp"
-        android:background="@drawable/rf_ingr_text_fld"
-        android:ems="10"
-        android:hint="@string/step_description"
-        android:importantForAutofill="no"
-        android:inputType="textPersonName"
-        android:paddingLeft="15dp"
-        android:paddingRight="15dp"
-        android:textColor="#000"
-        android:textColorHint="#000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.376"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.788"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintVertical_bias="0.638" />
 
     <ImageView
         android:id="@+id/name_text"
@@ -240,7 +103,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.171"
+        app:layout_constraintVertical_bias="0.118"
         app:srcCompat="@drawable/rf_name_text" />
 
     <ImageView
@@ -253,7 +116,7 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.291"
+        app:layout_constraintVertical_bias="0.254"
         app:srcCompat="@drawable/rf_tag_text" />
 
     <EditText
@@ -274,7 +137,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.218" />
+        app:layout_constraintVertical_bias="0.164" />
 
     <Button
         android:id="@+id/button5"
@@ -302,24 +165,47 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.987" />
 
-    <LinearLayout
-        android:id="@+id/layout_ingredient"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="350dp"></LinearLayout>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="415dp"
+        android:layout_height="98dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.527">
 
-    <LinearLayout
-        android:id="@+id/layout_step"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="510dp">
+        <LinearLayout
+            android:id="@+id/layout_ingredient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"></LinearLayout>
+    </androidx.core.widget.NestedScrollView>
 
-    </LinearLayout>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="409dp"
+        android:layout_height="98dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.821">
+
+        <LinearLayout
+            android:id="@+id/layout_step"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints">
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

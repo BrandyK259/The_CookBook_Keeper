@@ -3,15 +3,15 @@
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:paddingTop="5dp"
-    android:paddingBottom="5dp">
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp">
 
 
     <EditText
         android:id="@+id/ingredient_field"
         android:layout_width="159dp"
         android:layout_height="26dp"
-        android:layout_marginStart="65dp"
+        android:layout_marginStart="98dp"
         android:autofillHints=""
         android:background="@drawable/rf_ingr_text_fld"
         android:ems="10"
@@ -25,7 +25,7 @@
     <Button
         android:id="@+id/ingr_cancel_button"
         android:layout_width="33dp"
-        android:layout_height="24dp"
-        android:layout_marginStart="13dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="15dp"
         android:background="@drawable/rf_close_btn" />
 </LinearLayout>
