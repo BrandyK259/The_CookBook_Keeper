@@ -13,4 +13,7 @@
     <string name="the_cook_book_keeper">The Cook-Book Keeper</string>
     <string name="ingredient_desc">Ingredient Desc.</string>
     <string name="step_description">Step Description</string>
+    <string name="field_to_hold_the_recipe_s_links">field to hold the recipe\'s links</string>
+    <string name="text_that_states_your_recipes">text that states your recipes</string>
+    <string name="search_field">search field</string>
 </resources>

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".recipe_card">
+    tools:context=".recipe_card"
+    android:background="@drawable/rc_bckgrd">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
