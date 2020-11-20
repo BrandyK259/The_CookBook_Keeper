@@ -16,4 +16,8 @@
     <string name="field_to_hold_the_recipe_s_links">field to hold the recipe\'s links</string>
     <string name="text_that_states_your_recipes">text that states your recipes</string>
     <string name="search_field">search field</string>
+    <string name="text_that_states_recipe_card_for">text that states recipe card for</string>
+    <string name="the_name_of_the_recipe">the name of the recipe</string>
+    <string name="field_to_show_the_ingredients">field to show the ingredients</string>
+    <string name="field_to_show_the_steps">field to show the steps</string>
 </resources>
