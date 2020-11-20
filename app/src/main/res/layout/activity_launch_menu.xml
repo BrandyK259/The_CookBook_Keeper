@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".main_menu"
+    tools:context=".launch_menu"
     android:background="@drawable/mm_bckgrd">
 
     <ImageView
@@ -45,6 +45,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.748" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

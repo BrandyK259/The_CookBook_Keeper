@@ -100,9 +100,15 @@ public class recipe_form extends AppCompatActivity  {
 
     }
 
+    public void setBool(View view){
+        Intent intent = new Intent(this, main_menu.class);
+        intent.putExtra("recipeSaved", true);
+        startActivity(intent);
+    }
 
     public void gotoMainMenu (View view){
         Intent intent = new Intent(this, main_menu.class);
+        intent.putExtra("recipeSaved", false);
         startActivity(intent);
     }
 }
